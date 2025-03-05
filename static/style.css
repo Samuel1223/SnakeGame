@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+#game-canvas {
+    border: 2px solid #333;
+    background-color: #f8f8f8;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+#game-over {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffdddd;
+    border-radius: 5px;
+}
+
+#player-name {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.high-scores {
+    margin-top: 20px;
+}
+
+#scores-list {
+    list-style: none;
+    padding: 0;
+}
+
+#scores-list li {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+} 
